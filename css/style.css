@@ -1,10 +1,10 @@
 /* CUSTOM PROPS */
-:root{
-    --body-bg:#f1f4ff;
-    --green:#4DC48F;
-    --purple:#655AF2;
-    --red:#F03535;
-    --text-color:#000;
+:root {
+  --body-bg: #f1f4ff;
+  --green: #4dc48f;
+  --purple: #655af2;
+  --red: #f03535;
+  --text-color: #000;
 }
 
 /* GLOBAL */
@@ -21,6 +21,10 @@ html {
   box-sizing: inherit;
 }
 
+*:focus{
+outline: 3px dotted purple;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -29,7 +33,7 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Inter",Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   background-color: var(--body-bg);
   color: var(--text-color);
 }
@@ -58,44 +62,44 @@ img {
   padding-bottom: 80px;
 }
 
-.intro-page{
-    display: flex;
+.intro-page {
+  display: flex;
 }
 
 .hero {
-    --text-color:#fff;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 570px;
-    border-radius: 20px;
-    color: var(--text-color);
-    overflow: hidden;
+  --text-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 570px;
+  border-radius: 20px;
+  color: var(--text-color);
+  overflow: hidden;
 }
 .hero-main {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-grow: 1;
-    padding: 55px 65px;
-    background-color: #555;
-    background-image: url(../images/Rectangle\ 6.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+  padding: 55px 65px;
+  background-color: #555;
+  background-image: url(../images/Rectangle\ 6.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: none;
 }
 .hero-badge {
-    padding: 5px 15px;
-    border-radius: 41px;
-    border: 1px var(--text-color);
-  font-family: "Inter",Arial, sans-serif;
-font-size: 14px;
-margin-bottom: 60px;
-line-height: 16.94px;
-font-weight: 500;
+  padding: 5px 15px;
+  border-radius: 41px;
+  border: 1px var(--text-color);
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 14px;
+  margin-bottom: 60px;
+  line-height: 16.94px;
+  font-weight: 500;
 }
 .hero-heading {
-  font-family: "Inter",Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 700;
   line-height: 46px;
   margin-top: 0px;
@@ -104,13 +108,74 @@ font-weight: 500;
   margin-bottom: 25px;
 }
 .hero-text {
-    margin: 0;
-    font-size: 16px;
-    line-height: 26px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
 }
 .hero-bottom {
-    padding: 28px;
-    text-align: center;
-    font-size: 19px;
-    background-color: var(--green);
+  padding: 28px;
+  text-align: center;
+  font-size: 19px;
+  background-color: var(--green);
 }
+
+.signup-form {
+    width: 100%;
+    max-width: 570px;
+    padding: 55px 60px  40px;
+    margin-left: 12px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    border-right-color: #fff;
+}
+.signup-form-heading {
+    margin-top: 0px;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600px;
+    margin-bottom: 65px;
+}
+.signup-form-fields {
+    display: flex;
+    flex-direction: column;
+}
+.signup-form-field {
+    padding-top: 15px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 14px;
+    border: 0;
+    color: #555;
+}
+
+.signup-form-field:focus{
+    border-color: black;
+    color: black;
+    font-weight: 600;
+}
+
+.signup-form-field:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.signup-form-submit {
+    display: block;
+    border: 0;
+    width: 100%;
+    margin-bottom: 8px;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--purple);
+    color: #fff;
+}
+.signup-form-notice {
+    font-size: 11px;
+    line-height: 15px;
+}
+.signup-form-notice-link {
+    color: var(--red);
+    font-weight: 500;
+}
+
+/* SIGNUP-FORM */
