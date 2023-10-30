@@ -1,0 +1,14 @@
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .intro-page {
+    flex-direction: column;
+  }
+
+  .signup-form {
+    margin-left: 0px;
+    margin-top: 12px;
+  }
+
+  .signup-form-notice {
+    text-align: center;
+  }
+}

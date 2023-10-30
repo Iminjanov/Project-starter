@@ -21,8 +21,8 @@ html {
   box-sizing: inherit;
 }
 
-*:focus{
-outline: 3px dotted purple;
+*:focus {
+  outline: 3px dotted purple;
 }
 
 body {
@@ -120,62 +120,62 @@ img {
 }
 
 .signup-form {
-    width: 100%;
-    max-width: 570px;
-    padding: 55px 60px  40px;
-    margin-left: 12px;
-    border-radius: 20px;
-    overflow: hidden;
-    background-color: #fff;
-    border-right-color: #fff;
+  width: 100%;
+  max-width: 570px;
+  padding: 55px 60px 40px;
+  margin-left: 12px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  border-right-color: #fff;
 }
 .signup-form-heading {
-    margin-top: 0px;
-    font-size: 32px;
-    line-height: 42px;
-    font-weight: 600px;
-    margin-bottom: 65px;
+  margin-top: 0px;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 600px;
+  margin-bottom: 65px;
 }
 .signup-form-fields {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .signup-form-field {
-    padding-top: 15px;
-    border-bottom: 1px solid #555;
-    padding-bottom: 14px;
-    border: 0;
-    color: #555;
+  padding-top: 15px;
+  border-bottom: 1px solid #555;
+  padding-bottom: 14px;
+  border: 0;
+  color: #555;
 }
 
-.signup-form-field:focus{
-    border-color: black;
-    color: black;
-    font-weight: 600;
+.signup-form-field:focus {
+  border-color: black;
+  color: black;
+  font-weight: 600;
 }
 
-.signup-form-field:not(:last-child){
-    margin-bottom: 20px;
+.signup-form-field:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .signup-form-submit {
-    display: block;
-    border: 0;
-    width: 100%;
-    margin-bottom: 8px;
-    cursor: pointer;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: var(--purple);
-    color: #fff;
+  display: block;
+  border: 0;
+  width: 100%;
+  margin-bottom: 8px;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--purple);
+  color: #fff;
 }
 .signup-form-notice {
-    font-size: 11px;
-    line-height: 15px;
+  font-size: 11px;
+  line-height: 15px;
 }
 .signup-form-notice-link {
-    color: var(--red);
-    font-weight: 500;
+  color: var(--red);
+  font-weight: 500;
 }
 
 /* SIGNUP-FORM */
