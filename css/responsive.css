@@ -3,6 +3,11 @@
     flex-direction: column;
   }
 
+  .container {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
   .signup-form {
     margin-left: 0px;
     margin-top: 12px;
